@@ -1,13 +1,3 @@
-#
-# ----------------------------------------------------------------- #
-# System    : Centos 7.4                                            #
-#   Name    : peekaboo                                              #
-# Location  : /home/don/Desktop/workspace/learn-rails               #
-# File Name : Gemfile                                               #
-# Rev. Date : 12/29/2017                                            #
-# Rev. No.  : 0.0.1                                                 #
-# ----------------------------------------------------------------- #
-#
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -53,13 +43,3 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-#
-# ----------------------------------------------------------------- #
-# Date Rev.  : Rev. # :     Description                             #
-# ----------------------------------------------------------------- #
-# 12/29/2017 : 0.0.0  : Orginal.                                    #
-# ----------------------------------------------------------------- #
-# 12/29/2017 : 0.0.1  : Add top and bottom.                         #
-# ----------------------------------------------------------------- #
-
