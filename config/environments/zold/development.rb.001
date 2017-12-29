@@ -5,7 +5,7 @@
 # Location  : /home/don/Desktop/workspace/learn-rails               #
 # File Name : development.rb                                        #
 # Rev. Date : 12/29/2017                                            #
-# Rev. No.  : 0.0.2                                                 #
+# Rev. No.  : 0.0.1                                                 #
 # ----------------------------------------------------------------- #
 #
 LearnRails::Application.configure do
@@ -37,17 +37,6 @@ LearnRails::Application.configure do
   # number of complex assets.
   config.assets.debug = true
   
-  # Add for learn-rails                                     dps
-  config.action_mailer.smtp_settings={
-    address: "smtp.gmail.com",
-    port: 587,
-    domain: ENV["DOMAIN_NAME"],
-    authentication: "plain",
-    enable_starttls_auto: true,
-    user_name: ENV["GMAIL_USERNAME"],
-    password: ENV["GMAIL_PASSWORD"]
-  }
-  
 end
 #
 # ----------------------------------------------------------------- #
@@ -56,8 +45,5 @@ end
 # 12/29/2017 : 0.0.0  : Orginal.                                    #
 # ----------------------------------------------------------------- #
 # 12/29/2017 : 0.0.1  : Add top and bottom.                         #
-# ----------------------------------------------------------------- #
-# 12/29/2017 : 0.0.2  : Add section learn-rails (dps),              #
-#            :        :     from tutorial p74.                      #
 # ----------------------------------------------------------------- #
 
