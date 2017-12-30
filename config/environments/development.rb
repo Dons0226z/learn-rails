@@ -5,7 +5,7 @@
 # Location  : /home/don/Desktop/workspace/learn-rails               #
 # File Name : development.rb                                        #
 # Rev. Date : 12/29/2017                                            #
-# Rev. No.  : 0.0.2                                                 #
+# Rev. No.  : 0.0.3                                                 #
 # ----------------------------------------------------------------- #
 #
 LearnRails::Application.configure do
@@ -48,6 +48,9 @@ LearnRails::Application.configure do
     password: ENV["GMAIL_PASSWORD"]
   }
   
+  # Send email in development mode.
+  config.action_mailer.perform_deliveries = true
+  
 end
 #
 # ----------------------------------------------------------------- #
@@ -59,5 +62,7 @@ end
 # ----------------------------------------------------------------- #
 # 12/29/2017 : 0.0.2  : Add section learn-rails (dps),              #
 #            :        :     from tutorial p74.                      #
+# ----------------------------------------------------------------- #
+# 12/29/2017 : 0.0.3  : Add section Send email.                     #
 # ----------------------------------------------------------------- #
 
