@@ -5,7 +5,7 @@
 # Location  : /home/don/workspace/learn-rails/config                #
 # File Name : routes.rb                                             #
 # Rev. Date : 12/31/2017                                            #
-# Rev. No.  : 0.0.2                                                 #
+# Rev. No.  : 0.0.1                                                 #
 # ----------------------------------------------------------------- #
 #
 
@@ -65,9 +65,8 @@ LearnRails::Application.routes.draw do
   #     resources :products
   #   end
   
-  # Any request to the application root (http://localhost:3000)
-  #   will be directed to the VistorsController new action.
-  root to: 'visitors#new'
+  # Make about.html the home page
+  root to: redirect('/about.html')
 end
 
 #
@@ -78,9 +77,5 @@ end
 # ----------------------------------------------------------------- #
 # 12/31/2017 : 0.0.1  : Add top & bottom.                           #
 #            :        : Add section make about.html the home page.  #
-# ----------------------------------------------------------------- #
-# 12/31/2017 : 0.0.2  : Remove section make about.html the          #
-#            :        :   home page.                                #
-#            :        : Add Section from tutor p90.                 #
 # ----------------------------------------------------------------- #
 

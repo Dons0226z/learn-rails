@@ -1,14 +1,3 @@
-#
-# ----------------------------------------------------------------- #
-# System    : Centos 7.4                                            #
-#   Name    : peekaboo                                              #
-# Location  : /home/don/workspace/learn-rails/config                #
-# File Name : routes.rb                                             #
-# Rev. Date : 12/31/2017                                            #
-# Rev. No.  : 0.0.2                                                 #
-# ----------------------------------------------------------------- #
-#
-
 LearnRails::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -64,23 +53,4 @@ LearnRails::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  
-  # Any request to the application root (http://localhost:3000)
-  #   will be directed to the VistorsController new action.
-  root to: 'visitors#new'
 end
-
-#
-# ----------------------------------------------------------------- #
-# Date Rev.  : Rev. # :     Description                             #
-# ----------------------------------------------------------------- #
-# 12/31/2017 : 0.0.0  : Orginal.                                    #
-# ----------------------------------------------------------------- #
-# 12/31/2017 : 0.0.1  : Add top & bottom.                           #
-#            :        : Add section make about.html the home page.  #
-# ----------------------------------------------------------------- #
-# 12/31/2017 : 0.0.2  : Remove section make about.html the          #
-#            :        :   home page.                                #
-#            :        : Add Section from tutor p90.                 #
-# ----------------------------------------------------------------- #
-
