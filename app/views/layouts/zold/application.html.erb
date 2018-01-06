@@ -4,16 +4,14 @@
 <!-- # Location  : /home/don/workspace/learn-rails/app/views/layouts     # -->
 <!-- # File Name : application.html.erb                                  # -->
 <!-- # Rev. Date : 01/06/2018                                            # -->
-<!-- # Rev. No.  : 0.0.3                                                 # -->
+<!-- # Rev. No.  : 0.0.2                                                 # -->
 <!-- # ----------------------------------------------------------------- # -->
 <!-- # -->
 <!DOCTYPE html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-      <%= content_for?(:title) ? yield(:title) : "Learn Rails" %>
-    </title>
+    <title><%= content_for?(:title) ? yield(:title) : "Learn Rails" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Learn Rails" %>">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
@@ -36,7 +34,5 @@
 <!-- # 12/31/2017 : 0.0.1  : Orginal.                                    # -->
 <!-- # ----------------------------------------------------------------- # -->
 <!-- # 01/06/2016 : 0.0.2  : Add top & bottom.                           # -->
-<!-- # ----------------------------------------------------------------- # -->
-<!-- # 01/06/2016 : 0.0.3  : Clean up html code for easer readinng.      # -->
 <!-- # ----------------------------------------------------------------- # -->
 
